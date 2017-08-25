@@ -1,0 +1,25 @@
+
+.btn{
+    border:2px solid rgba(0,0,0,0.8);
+    padding:1em 3em;
+    display:inline-block;
+    box-shadow:3px 3px 0px rgba(0,0,0,0.3);
+    text-transform:uppercase;
+    cursor:pointer;
+    position:relative;
+    
+    &:hover{
+        box-shadow:inset 3px 3px 0px rgba(0,0,0,0.2);
+        margin-top:3px;
+        margin-left:3px;
+        //background:rgba(0,0,0,0.05);
+    }
+    
+    &.start{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translateX(-50%) translateY(-50%);
+    }
+    
+}

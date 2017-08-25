@@ -1,0 +1,23 @@
+.bars{
+    z-index:-1;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    
+    .bar{
+        position:relative;
+        display:inline-block;
+        background:rgba(0,0,0,0.1);
+        width:calc(100% / 20);
+        transition:height linear 50ms, background-color 800ms linear;
+        vertical-align:top;
+        
+        
+        
+        &:nth-child(even){
+            background:rgba(0,0,0,0.2);
+        }
+        
+    }
+}

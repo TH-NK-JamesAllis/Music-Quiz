@@ -1,0 +1,28 @@
+.question{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    display:none;
+    text-align:center;
+    max-width:700px;
+    width:100%;
+    
+    
+    &.active{
+        display:block;
+    }
+    
+    p{
+        font-size:30px;
+    }
+    
+    input{
+        font-size:20px;
+        margin:0 0 0 10px;
+    }
+    
+    .btn{
+        margin-top:50px;
+    }
+}
